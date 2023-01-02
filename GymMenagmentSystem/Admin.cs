@@ -335,7 +335,7 @@ namespace GymMenagmentSystem
             }
             else if(WindowState == FormWindowState.Maximized)
             {
-                WindowState = FormWindowState.Normal;
+                WindowState = FormWindowState.Minimized;
             }
         }
 
