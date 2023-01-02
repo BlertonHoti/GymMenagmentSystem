@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Receptionist));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.RecepLbl = new System.Windows.Forms.Label();
             this.MemberLbl = new System.Windows.Forms.Label();
             this.DeleteBtn = new System.Windows.Forms.Button();
@@ -67,15 +67,8 @@
             this.RecepName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.AdminLbl = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -84,22 +77,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RecepList)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // RecepLbl
             // 
             this.RecepLbl.AutoSize = true;
-            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepLbl.Location = new System.Drawing.Point(52, 309);
+            this.RecepLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RecepLbl.ForeColor = System.Drawing.Color.Teal;
+            this.RecepLbl.Location = new System.Drawing.Point(1, 300);
             this.RecepLbl.Name = "RecepLbl";
-            this.RecepLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.RecepLbl.Size = new System.Drawing.Size(95, 28);
+            this.RecepLbl.Padding = new System.Windows.Forms.Padding(23, 5, 22, 5);
+            this.RecepLbl.Size = new System.Drawing.Size(159, 35);
             this.RecepLbl.TabIndex = 5;
             this.RecepLbl.Text = "Receptionist";
             this.RecepLbl.Click += new System.EventHandler(this.RecepLbl_Click);
@@ -109,11 +98,13 @@
             // MemberLbl
             // 
             this.MemberLbl.AutoSize = true;
-            this.MemberLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MemberLbl.Location = new System.Drawing.Point(52, 227);
+            this.MemberLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MemberLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MemberLbl.ForeColor = System.Drawing.Color.Teal;
+            this.MemberLbl.Location = new System.Drawing.Point(1, 230);
             this.MemberLbl.Name = "MemberLbl";
-            this.MemberLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.MemberLbl.Size = new System.Drawing.Size(76, 28);
+            this.MemberLbl.Padding = new System.Windows.Forms.Padding(34, 5, 34, 5);
+            this.MemberLbl.Size = new System.Drawing.Size(159, 35);
             this.MemberLbl.TabIndex = 3;
             this.MemberLbl.Text = "Members";
             this.MemberLbl.Click += new System.EventHandler(this.MemberLbl_Click);
@@ -122,10 +113,10 @@
             // 
             // DeleteBtn
             // 
-            this.DeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.DeleteBtn.BackColor = System.Drawing.Color.Teal;
             this.DeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteBtn.Location = new System.Drawing.Point(739, 197);
+            this.DeleteBtn.Location = new System.Drawing.Point(773, 196);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(113, 34);
             this.DeleteBtn.TabIndex = 20;
@@ -135,10 +126,10 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.SaveBtn.BackColor = System.Drawing.Color.Teal;
             this.SaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveBtn.ForeColor = System.Drawing.Color.White;
-            this.SaveBtn.Location = new System.Drawing.Point(587, 197);
+            this.SaveBtn.Location = new System.Drawing.Point(621, 196);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(113, 34);
             this.SaveBtn.TabIndex = 19;
@@ -148,10 +139,10 @@
             // 
             // EditBtn
             // 
-            this.EditBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.EditBtn.BackColor = System.Drawing.Color.Teal;
             this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
-            this.EditBtn.Location = new System.Drawing.Point(425, 197);
+            this.EditBtn.Location = new System.Drawing.Point(459, 196);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(113, 34);
             this.EditBtn.TabIndex = 18;
@@ -162,10 +153,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.label9.Location = new System.Drawing.Point(608, 242);
+            this.label9.ForeColor = System.Drawing.Color.Teal;
+            this.label9.Location = new System.Drawing.Point(629, 237);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(105, 16);
             this.label9.TabIndex = 17;
@@ -174,8 +165,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(622, 127);
+            this.label8.ForeColor = System.Drawing.Color.Teal;
+            this.label8.Location = new System.Drawing.Point(656, 126);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(67, 16);
             this.label8.TabIndex = 15;
@@ -184,11 +177,13 @@
             // BillingLbl
             // 
             this.BillingLbl.AutoSize = true;
-            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillingLbl.Location = new System.Drawing.Point(52, 350);
+            this.BillingLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BillingLbl.ForeColor = System.Drawing.Color.Teal;
+            this.BillingLbl.Location = new System.Drawing.Point(1, 335);
             this.BillingLbl.Name = "BillingLbl";
-            this.BillingLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.BillingLbl.Size = new System.Drawing.Size(53, 28);
+            this.BillingLbl.Padding = new System.Windows.Forms.Padding(47, 5, 47, 5);
+            this.BillingLbl.Size = new System.Drawing.Size(159, 35);
             this.BillingLbl.TabIndex = 6;
             this.BillingLbl.Text = "Billing";
             this.BillingLbl.Click += new System.EventHandler(this.BillingLbl_Click);
@@ -223,7 +218,7 @@
             // RecepPass
             // 
             this.RecepPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepPass.Location = new System.Drawing.Point(622, 146);
+            this.RecepPass.Location = new System.Drawing.Point(656, 145);
             this.RecepPass.Name = "RecepPass";
             this.RecepPass.Size = new System.Drawing.Size(241, 26);
             this.RecepPass.TabIndex = 14;
@@ -231,8 +226,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(400, 124);
+            this.label7.ForeColor = System.Drawing.Color.Teal;
+            this.label7.Location = new System.Drawing.Point(434, 123);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(46, 16);
             this.label7.TabIndex = 13;
@@ -241,7 +238,7 @@
             // RecepPhone
             // 
             this.RecepPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepPhone.Location = new System.Drawing.Point(403, 146);
+            this.RecepPhone.Location = new System.Drawing.Point(437, 145);
             this.RecepPhone.Name = "RecepPhone";
             this.RecepPhone.Size = new System.Drawing.Size(201, 26);
             this.RecepPhone.TabIndex = 12;
@@ -249,18 +246,18 @@
             // RecepDateBirth
             // 
             this.RecepDateBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepDateBirth.Location = new System.Drawing.Point(622, 79);
+            this.RecepDateBirth.Location = new System.Drawing.Point(656, 78);
             this.RecepDateBirth.Name = "RecepDateBirth";
             this.RecepDateBirth.Size = new System.Drawing.Size(200, 26);
             this.RecepDateBirth.TabIndex = 10;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.panel4.BackColor = System.Drawing.Color.SeaGreen;
             this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Controls.Add(this.LogoutLbl);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 444);
+            this.panel4.Location = new System.Drawing.Point(0, 472);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(160, 49);
             this.panel4.TabIndex = 18;
@@ -268,11 +265,13 @@
             // MemShipLbl
             // 
             this.MemShipLbl.AutoSize = true;
-            this.MemShipLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MemShipLbl.Location = new System.Drawing.Point(52, 268);
+            this.MemShipLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MemShipLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MemShipLbl.ForeColor = System.Drawing.Color.Teal;
+            this.MemShipLbl.Location = new System.Drawing.Point(1, 265);
             this.MemShipLbl.Name = "MemShipLbl";
-            this.MemShipLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.MemShipLbl.Size = new System.Drawing.Size(105, 28);
+            this.MemShipLbl.Padding = new System.Windows.Forms.Padding(16, 5, 17, 5);
+            this.MemShipLbl.Size = new System.Drawing.Size(159, 35);
             this.MemShipLbl.TabIndex = 4;
             this.MemShipLbl.Text = "Memberships";
             this.MemShipLbl.Click += new System.EventHandler(this.MemShipLbl_Click);
@@ -282,8 +281,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(619, 57);
+            this.label6.ForeColor = System.Drawing.Color.Teal;
+            this.label6.Location = new System.Drawing.Point(653, 56);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(65, 16);
             this.label6.TabIndex = 11;
@@ -291,7 +292,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel5.BackColor = System.Drawing.Color.SeaGreen;
             this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
@@ -312,8 +313,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(475, 57);
+            this.label5.ForeColor = System.Drawing.Color.Teal;
+            this.label5.Location = new System.Drawing.Point(509, 56);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 16);
             this.label5.TabIndex = 9;
@@ -326,7 +329,7 @@
             this.RecepGen.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.RecepGen.Location = new System.Drawing.Point(478, 79);
+            this.RecepGen.Location = new System.Drawing.Point(512, 78);
             this.RecepGen.Name = "RecepGen";
             this.RecepGen.Size = new System.Drawing.Size(121, 28);
             this.RecepGen.TabIndex = 8;
@@ -334,8 +337,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(842, 60);
+            this.label4.ForeColor = System.Drawing.Color.Teal;
+            this.label4.Location = new System.Drawing.Point(876, 59);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 16);
             this.label4.TabIndex = 7;
@@ -344,7 +349,7 @@
             // RecepAdd
             // 
             this.RecepAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepAdd.Location = new System.Drawing.Point(842, 79);
+            this.RecepAdd.Location = new System.Drawing.Point(876, 78);
             this.RecepAdd.Name = "RecepAdd";
             this.RecepAdd.Size = new System.Drawing.Size(241, 26);
             this.RecepAdd.TabIndex = 6;
@@ -352,11 +357,13 @@
             // CoachLbl
             // 
             this.CoachLbl.AutoSize = true;
-            this.CoachLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoachLbl.Location = new System.Drawing.Point(52, 186);
+            this.CoachLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CoachLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoachLbl.ForeColor = System.Drawing.Color.Teal;
+            this.CoachLbl.Location = new System.Drawing.Point(1, 195);
             this.CoachLbl.Name = "CoachLbl";
-            this.CoachLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.CoachLbl.Size = new System.Drawing.Size(53, 28);
+            this.CoachLbl.Padding = new System.Windows.Forms.Padding(47, 5, 47, 5);
+            this.CoachLbl.Size = new System.Drawing.Size(159, 35);
             this.CoachLbl.TabIndex = 2;
             this.CoachLbl.Text = "Coach";
             this.CoachLbl.Click += new System.EventHandler(this.CoachLbl_Click);
@@ -393,16 +400,16 @@
             this.panel2.Controls.Add(this.RecepName);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(69, 25);
+            this.panel2.Location = new System.Drawing.Point(6, 7);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1121, 493);
+            this.panel2.Size = new System.Drawing.Size(1191, 521);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(1084, 3);
+            this.pictureBox9.Location = new System.Drawing.Point(1152, 3);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(34, 30);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -413,6 +420,8 @@
             // Status
             // 
             this.Status.AutoSize = true;
+            this.Status.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Status.ForeColor = System.Drawing.Color.Teal;
             this.Status.Location = new System.Drawing.Point(607, 13);
             this.Status.Name = "Status";
             this.Status.Size = new System.Drawing.Size(60, 20);
@@ -422,6 +431,8 @@
             // StatusLbl
             // 
             this.StatusLbl.AutoSize = true;
+            this.StatusLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.StatusLbl.ForeColor = System.Drawing.Color.Teal;
             this.StatusLbl.Location = new System.Drawing.Point(673, 13);
             this.StatusLbl.Name = "StatusLbl";
             this.StatusLbl.Size = new System.Drawing.Size(0, 20);
@@ -429,28 +440,28 @@
             // 
             // RecepList
             // 
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.White;
-            this.RecepList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle46;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RecepList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.RecepList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RecepList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.RecepList.ColumnHeadersHeight = 28;
             this.RecepList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RecepList.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RecepList.DefaultCellStyle = dataGridViewCellStyle3;
             this.RecepList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.RecepList.Location = new System.Drawing.Point(216, 273);
+            this.RecepList.Location = new System.Drawing.Point(239, 265);
             this.RecepList.Name = "RecepList";
             this.RecepList.ReadOnly = true;
             this.RecepList.RowHeadersVisible = false;
@@ -482,8 +493,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(213, 60);
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(247, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 3;
@@ -492,7 +505,7 @@
             // RecepName
             // 
             this.RecepName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepName.Location = new System.Drawing.Point(213, 79);
+            this.RecepName.Location = new System.Drawing.Point(247, 78);
             this.RecepName.Name = "RecepName";
             this.RecepName.Size = new System.Drawing.Size(241, 26);
             this.RecepName.TabIndex = 2;
@@ -500,7 +513,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(278, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(213, 30);
@@ -510,13 +525,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(248)))));
-            this.panel3.Controls.Add(this.pictureBox8);
             this.panel3.Controls.Add(this.AdminLbl);
-            this.panel3.Controls.Add(this.pictureBox6);
-            this.panel3.Controls.Add(this.pictureBox5);
-            this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.BillingLbl);
@@ -527,103 +536,36 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 493);
+            this.panel3.Size = new System.Drawing.Size(160, 521);
             this.panel3.TabIndex = 0;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 141);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 28;
-            this.pictureBox8.TabStop = false;
             // 
             // AdminLbl
             // 
             this.AdminLbl.AutoSize = true;
-            this.AdminLbl.Location = new System.Drawing.Point(52, 146);
+            this.AdminLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AdminLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminLbl.ForeColor = System.Drawing.Color.Teal;
+            this.AdminLbl.Location = new System.Drawing.Point(1, 160);
             this.AdminLbl.Name = "AdminLbl";
-            this.AdminLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.AdminLbl.Size = new System.Drawing.Size(54, 27);
+            this.AdminLbl.Padding = new System.Windows.Forms.Padding(46, 5, 46, 5);
+            this.AdminLbl.Size = new System.Drawing.Size(159, 35);
             this.AdminLbl.TabIndex = 27;
             this.AdminLbl.Text = "Admin";
             this.AdminLbl.Click += new System.EventHandler(this.AdminLbl_Click);
             this.AdminLbl.MouseLeave += new System.EventHandler(this.AdminLbl_MouseLeave);
             this.AdminLbl.MouseHover += new System.EventHandler(this.AdminLbl_MouseHover);
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(-1, 223);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 25;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(-1, 264);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 24;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(-1, 305);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 23;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(-1, 346);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 182);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
-            // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 10;
-            this.guna2Elipse1.TargetControl = this.panel1;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.panel1.Location = new System.Drawing.Point(15, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(116, 509);
-            this.panel1.TabIndex = 2;
             // 
             // Receptionist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Salmon;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1204, 533);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -641,12 +583,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.RecepList)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -683,18 +619,11 @@
         private System.Windows.Forms.TextBox RecepName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2DataGridView RecepList;
         private System.Windows.Forms.Label Status;
         private System.Windows.Forms.Label StatusLbl;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label AdminLbl;
-        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }

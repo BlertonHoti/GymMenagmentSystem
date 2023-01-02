@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Status = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -80,7 +80,7 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.White;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(1141, 3);
+            this.pictureBox8.Location = new System.Drawing.Point(1151, 5);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(34, 30);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -152,8 +152,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(264, 76);
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(302, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 3;
@@ -162,7 +164,7 @@
             // AdName
             // 
             this.AdName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdName.Location = new System.Drawing.Point(264, 95);
+            this.AdName.Location = new System.Drawing.Point(302, 99);
             this.AdName.Name = "AdName";
             this.AdName.Size = new System.Drawing.Size(187, 26);
             this.AdName.TabIndex = 2;
@@ -193,7 +195,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 506);
+            this.panel3.Size = new System.Drawing.Size(160, 521);
             this.panel3.TabIndex = 0;
             // 
             // AdminLbl
@@ -202,7 +204,7 @@
             this.AdminLbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.AdminLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminLbl.ForeColor = System.Drawing.Color.Teal;
-            this.AdminLbl.Location = new System.Drawing.Point(0, 137);
+            this.AdminLbl.Location = new System.Drawing.Point(1, 165);
             this.AdminLbl.Name = "AdminLbl";
             this.AdminLbl.Padding = new System.Windows.Forms.Padding(46, 5, 46, 5);
             this.AdminLbl.Size = new System.Drawing.Size(159, 35);
@@ -228,7 +230,7 @@
             this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Controls.Add(this.LogoutLbl);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 457);
+            this.panel4.Location = new System.Drawing.Point(0, 472);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(160, 49);
             this.panel4.TabIndex = 18;
@@ -239,7 +241,7 @@
             this.BillingLbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BillingLbl.ForeColor = System.Drawing.Color.Teal;
-            this.BillingLbl.Location = new System.Drawing.Point(0, 374);
+            this.BillingLbl.Location = new System.Drawing.Point(1, 340);
             this.BillingLbl.Name = "BillingLbl";
             this.BillingLbl.Padding = new System.Windows.Forms.Padding(47, 5, 47, 5);
             this.BillingLbl.Size = new System.Drawing.Size(159, 35);
@@ -255,7 +257,7 @@
             this.RecepLbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RecepLbl.ForeColor = System.Drawing.Color.Teal;
-            this.RecepLbl.Location = new System.Drawing.Point(0, 325);
+            this.RecepLbl.Location = new System.Drawing.Point(1, 305);
             this.RecepLbl.Name = "RecepLbl";
             this.RecepLbl.Padding = new System.Windows.Forms.Padding(23, 5, 22, 5);
             this.RecepLbl.Size = new System.Drawing.Size(159, 35);
@@ -271,7 +273,7 @@
             this.MShipLbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.MShipLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MShipLbl.ForeColor = System.Drawing.Color.Teal;
-            this.MShipLbl.Location = new System.Drawing.Point(0, 277);
+            this.MShipLbl.Location = new System.Drawing.Point(1, 270);
             this.MShipLbl.Name = "MShipLbl";
             this.MShipLbl.Padding = new System.Windows.Forms.Padding(16, 5, 17, 5);
             this.MShipLbl.Size = new System.Drawing.Size(159, 35);
@@ -287,7 +289,7 @@
             this.MemberLbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.MemberLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MemberLbl.ForeColor = System.Drawing.Color.Teal;
-            this.MemberLbl.Location = new System.Drawing.Point(0, 231);
+            this.MemberLbl.Location = new System.Drawing.Point(1, 235);
             this.MemberLbl.Name = "MemberLbl";
             this.MemberLbl.Padding = new System.Windows.Forms.Padding(34, 5, 34, 5);
             this.MemberLbl.Size = new System.Drawing.Size(159, 35);
@@ -303,7 +305,7 @@
             this.CoachLbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CoachLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CoachLbl.ForeColor = System.Drawing.Color.Teal;
-            this.CoachLbl.Location = new System.Drawing.Point(0, 186);
+            this.CoachLbl.Location = new System.Drawing.Point(1, 200);
             this.CoachLbl.Name = "CoachLbl";
             this.CoachLbl.Padding = new System.Windows.Forms.Padding(47, 5, 47, 5);
             this.CoachLbl.Size = new System.Drawing.Size(159, 35);
@@ -339,9 +341,9 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.AdName);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Location = new System.Drawing.Point(7, 7);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1178, 506);
+            this.panel2.Size = new System.Drawing.Size(1191, 521);
             this.panel2.TabIndex = 5;
             // 
             // AdGen
@@ -351,35 +353,35 @@
             this.AdGen.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.AdGen.Location = new System.Drawing.Point(471, 93);
+            this.AdGen.Location = new System.Drawing.Point(509, 97);
             this.AdGen.Name = "AdGen";
             this.AdGen.Size = new System.Drawing.Size(165, 28);
             this.AdGen.TabIndex = 37;
             // 
             // AdminList
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.AdminList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AdminList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.AdminList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AdminList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.AdminList.ColumnHeadersHeight = 28;
             this.AdminList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.AdminList.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.AdminList.DefaultCellStyle = dataGridViewCellStyle15;
             this.AdminList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.AdminList.Location = new System.Drawing.Point(209, 242);
+            this.AdminList.Location = new System.Drawing.Point(240, 233);
             this.AdminList.Name = "AdminList";
             this.AdminList.ReadOnly = true;
             this.AdminList.RowHeadersVisible = false;
@@ -411,7 +413,7 @@
             // AdPass
             // 
             this.AdPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdPass.Location = new System.Drawing.Point(851, 95);
+            this.AdPass.Location = new System.Drawing.Point(889, 99);
             this.AdPass.Name = "AdPass";
             this.AdPass.Size = new System.Drawing.Size(179, 26);
             this.AdPass.TabIndex = 27;
@@ -419,7 +421,7 @@
             // AdPhone
             // 
             this.AdPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdPhone.Location = new System.Drawing.Point(659, 95);
+            this.AdPhone.Location = new System.Drawing.Point(697, 99);
             this.AdPhone.Name = "AdPhone";
             this.AdPhone.Size = new System.Drawing.Size(176, 26);
             this.AdPhone.TabIndex = 26;
@@ -427,8 +429,10 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(848, 76);
+            this.label16.ForeColor = System.Drawing.Color.Teal;
+            this.label16.Location = new System.Drawing.Point(886, 80);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(67, 16);
             this.label16.TabIndex = 24;
@@ -436,10 +440,10 @@
             // 
             // DeleteBtn
             // 
-            this.DeleteBtn.BackColor = System.Drawing.Color.SeaGreen;
+            this.DeleteBtn.BackColor = System.Drawing.Color.Teal;
             this.DeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteBtn.Location = new System.Drawing.Point(737, 156);
+            this.DeleteBtn.Location = new System.Drawing.Point(759, 155);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(113, 34);
             this.DeleteBtn.TabIndex = 20;
@@ -449,10 +453,10 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.BackColor = System.Drawing.Color.SeaGreen;
+            this.SaveBtn.BackColor = System.Drawing.Color.Teal;
             this.SaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveBtn.ForeColor = System.Drawing.Color.White;
-            this.SaveBtn.Location = new System.Drawing.Point(585, 156);
+            this.SaveBtn.Location = new System.Drawing.Point(607, 155);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(113, 34);
             this.SaveBtn.TabIndex = 19;
@@ -462,10 +466,10 @@
             // 
             // EditBtn
             // 
-            this.EditBtn.BackColor = System.Drawing.Color.SeaGreen;
+            this.EditBtn.BackColor = System.Drawing.Color.Teal;
             this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
-            this.EditBtn.Location = new System.Drawing.Point(423, 156);
+            this.EditBtn.Location = new System.Drawing.Point(445, 155);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(113, 34);
             this.EditBtn.TabIndex = 18;
@@ -479,7 +483,7 @@
             this.label9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(605, 214);
+            this.label9.Location = new System.Drawing.Point(615, 214);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(105, 16);
             this.label9.TabIndex = 17;
@@ -488,8 +492,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(656, 76);
+            this.label6.ForeColor = System.Drawing.Color.Teal;
+            this.label6.Location = new System.Drawing.Point(694, 80);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(46, 16);
             this.label6.TabIndex = 11;
@@ -498,8 +504,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(468, 76);
+            this.label5.ForeColor = System.Drawing.Color.Teal;
+            this.label5.Location = new System.Drawing.Point(506, 80);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 16);
             this.label5.TabIndex = 9;

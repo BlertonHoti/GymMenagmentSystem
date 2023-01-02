@@ -156,74 +156,94 @@ namespace GymMenagmentSystem
 
         private void AdminLbl_MouseHover(object sender, EventArgs e)
         {
-            AdminLbl.BackColor = Color.LightGray;
+            AdminLbl.BackColor = Color.DarkSeaGreen;
+            AdminLbl.ForeColor = Color.White;
         }
 
         private void AdminLbl_MouseLeave(object sender, EventArgs e)
         {
-            AdminLbl.BackColor = Color.Transparent;
+            AdminLbl.BackColor = Color.WhiteSmoke;
+            AdminLbl.ForeColor = Color.Teal;
         }
 
         private void CoachLbl_MouseHover(object sender, EventArgs e)
         {
-            CoachLbl.BackColor = Color.LightGray;
+            CoachLbl.BackColor = Color.DarkSeaGreen;
+            CoachLbl.ForeColor = Color.White;
         }
 
         private void CoachLbl_MouseLeave(object sender, EventArgs e)
         {
-            CoachLbl.BackColor = Color.Transparent;
+            CoachLbl.BackColor = Color.WhiteSmoke;
+            CoachLbl.ForeColor = Color.Teal;
         }
 
         private void MembersLbl_MouseHover(object sender, EventArgs e)
         {
-            MembersLbl.BackColor = Color.LightGray;
+            MembersLbl.BackColor = Color.DarkSeaGreen;
+            MembersLbl.ForeColor = Color.White;
         }
 
         private void MembersLbl_MouseLeave(object sender, EventArgs e)
         {
-            MembersLbl.BackColor = Color.Transparent;
+            MembersLbl.BackColor = Color.WhiteSmoke;
+            MembersLbl.ForeColor = Color.Teal;
         }
 
         private void MShipLbl_MouseHover(object sender, EventArgs e)
         {
-            MShipLbl.BackColor = Color.LightGray;
+            MShipLbl.BackColor = Color.DarkSeaGreen;
+            MShipLbl.ForeColor = Color.White;
         }
 
         private void MShipLbl_MouseLeave(object sender, EventArgs e)
         {
-            MShipLbl.BackColor = Color.Transparent;
+            MShipLbl.BackColor = Color.WhiteSmoke;
+            MShipLbl.ForeColor = Color.Teal;
         }
 
         private void RecepLbl_MouseHover(object sender, EventArgs e)
         {
-            RecepLbl.BackColor = Color.LightGray;
+            RecepLbl.BackColor = Color.DarkSeaGreen;
+            RecepLbl.ForeColor = Color.White;
         }
 
         private void RecepLbl_MouseLeave(object sender, EventArgs e)
         {
-            RecepLbl.BackColor = Color.Transparent;
+            RecepLbl.BackColor = Color.WhiteSmoke;
+            RecepLbl.ForeColor = Color.Teal;
         }
 
         private void BillingLbl_MouseHover(object sender, EventArgs e)
         {
-            BillingLbl.BackColor = Color.LightGray;
+            BillingLbl.BackColor = Color.DarkSeaGreen;
+            BillingLbl.ForeColor = Color.White;
         }
 
         private void BillingLbl_MouseLeave(object sender, EventArgs e)
         {
-            BillingLbl.BackColor = Color.Transparent;
+            BillingLbl.BackColor = Color.WhiteSmoke;
+            BillingLbl.ForeColor = Color.Teal;
         }
 
         private void LogoutLbl_MouseHover(object sender, EventArgs e)
         {
-            LogoutLbl.BackColor = Color.LightGray;
-            LogoutLbl.ForeColor = Color.Black;
+            LogoutLbl.BackColor = Color.DarkSeaGreen;
+            LogoutLbl.ForeColor = Color.White;
         }
 
         private void LogoutLbl_MouseLeave(object sender, EventArgs e)
         {
             LogoutLbl.BackColor = Color.Transparent;
             LogoutLbl.ForeColor = Color.White;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
+            Login.Admin = false;
         }
     }
 }

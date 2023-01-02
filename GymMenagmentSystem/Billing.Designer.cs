@@ -30,10 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Billing));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.BillAmount = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
@@ -52,12 +51,7 @@
             this.BillMember = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.AdminLbl = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -70,32 +64,15 @@
             this.CoachLbl = new System.Windows.Forms.Label();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BillingList)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 227);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 25;
-            this.pictureBox6.TabStop = false;
             // 
             // BillAmount
             // 
@@ -108,8 +85,10 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(243, 335);
+            this.label16.ForeColor = System.Drawing.Color.Teal;
+            this.label16.Location = new System.Drawing.Point(240, 335);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(45, 16);
             this.label16.TabIndex = 24;
@@ -117,7 +96,7 @@
             // 
             // AddBtn
             // 
-            this.AddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.White;
             this.AddBtn.Location = new System.Drawing.Point(233, 407);
@@ -130,7 +109,7 @@
             // 
             // CancelBtn
             // 
-            this.CancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.CancelBtn.BackColor = System.Drawing.Color.Teal;
             this.CancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelBtn.ForeColor = System.Drawing.Color.White;
             this.CancelBtn.Location = new System.Drawing.Point(352, 407);
@@ -144,8 +123,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(243, 268);
+            this.label6.ForeColor = System.Drawing.Color.Teal;
+            this.label6.Location = new System.Drawing.Point(240, 268);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 16);
             this.label6.TabIndex = 11;
@@ -154,7 +135,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(240, 182);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 16);
@@ -164,7 +147,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(240, 121);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 16);
@@ -174,7 +159,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(278, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 30);
@@ -201,15 +188,15 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(69, 25);
+            this.panel2.Location = new System.Drawing.Point(6, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1121, 493);
+            this.panel2.Size = new System.Drawing.Size(1191, 521);
             this.panel2.TabIndex = 5;
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(1084, 3);
+            this.pictureBox8.Location = new System.Drawing.Point(1149, 3);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(34, 30);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -220,6 +207,8 @@
             // Status
             // 
             this.Status.AutoSize = true;
+            this.Status.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Status.ForeColor = System.Drawing.Color.Teal;
             this.Status.Location = new System.Drawing.Point(595, 3);
             this.Status.Name = "Status";
             this.Status.Size = new System.Drawing.Size(60, 20);
@@ -229,6 +218,8 @@
             // StatusLbl
             // 
             this.StatusLbl.AutoSize = true;
+            this.StatusLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.StatusLbl.ForeColor = System.Drawing.Color.Teal;
             this.StatusLbl.Location = new System.Drawing.Point(661, 3);
             this.StatusLbl.Name = "StatusLbl";
             this.StatusLbl.Size = new System.Drawing.Size(0, 20);
@@ -236,26 +227,26 @@
             // 
             // BillingList
             // 
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.White;
-            this.BillingList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle52;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BillingList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.BillingList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BillingList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.BillingList.ColumnHeadersHeight = 28;
             this.BillingList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BillingList.DefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BillingList.DefaultCellStyle = dataGridViewCellStyle3;
             this.BillingList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.BillingList.Location = new System.Drawing.Point(562, 135);
             this.BillingList.Name = "BillingList";
@@ -313,9 +304,9 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.label9.ForeColor = System.Drawing.Color.Teal;
             this.label9.Location = new System.Drawing.Point(805, 92);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 16);
@@ -325,13 +316,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(248)))));
-            this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Controls.Add(this.AdminLbl);
-            this.panel3.Controls.Add(this.pictureBox6);
-            this.panel3.Controls.Add(this.pictureBox5);
-            this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.BillingLbl);
@@ -342,75 +327,28 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 493);
+            this.panel3.Size = new System.Drawing.Size(160, 521);
             this.panel3.TabIndex = 0;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(0, 146);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 28;
-            this.pictureBox9.TabStop = false;
             // 
             // AdminLbl
             // 
             this.AdminLbl.AutoSize = true;
-            this.AdminLbl.Location = new System.Drawing.Point(53, 150);
+            this.AdminLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AdminLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminLbl.ForeColor = System.Drawing.Color.Teal;
+            this.AdminLbl.Location = new System.Drawing.Point(1, 163);
             this.AdminLbl.Name = "AdminLbl";
-            this.AdminLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.AdminLbl.Size = new System.Drawing.Size(54, 27);
+            this.AdminLbl.Padding = new System.Windows.Forms.Padding(46, 5, 46, 5);
+            this.AdminLbl.Size = new System.Drawing.Size(159, 35);
             this.AdminLbl.TabIndex = 27;
             this.AdminLbl.Text = "Admin";
             this.AdminLbl.Click += new System.EventHandler(this.AdminLbl_Click);
             this.AdminLbl.MouseLeave += new System.EventHandler(this.AdminLbl_MouseLeave);
             this.AdminLbl.MouseHover += new System.EventHandler(this.AdminLbl_MouseHover);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 268);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 24;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 309);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 23;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 350);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 186);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(47, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel5.BackColor = System.Drawing.Color.SeaGreen;
             this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
@@ -430,11 +368,11 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.panel4.BackColor = System.Drawing.Color.SeaGreen;
             this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Controls.Add(this.LogoutLbl);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 444);
+            this.panel4.Location = new System.Drawing.Point(0, 472);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(160, 49);
             this.panel4.TabIndex = 18;
@@ -448,6 +386,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 26;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // LogoutLbl
             // 
@@ -467,11 +406,13 @@
             // BillingLbl
             // 
             this.BillingLbl.AutoSize = true;
-            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillingLbl.Location = new System.Drawing.Point(53, 354);
+            this.BillingLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BillingLbl.ForeColor = System.Drawing.Color.Teal;
+            this.BillingLbl.Location = new System.Drawing.Point(1, 338);
             this.BillingLbl.Name = "BillingLbl";
-            this.BillingLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.BillingLbl.Size = new System.Drawing.Size(53, 28);
+            this.BillingLbl.Padding = new System.Windows.Forms.Padding(47, 5, 47, 5);
+            this.BillingLbl.Size = new System.Drawing.Size(159, 35);
             this.BillingLbl.TabIndex = 6;
             this.BillingLbl.Text = "Billing";
             this.BillingLbl.MouseLeave += new System.EventHandler(this.BillingLbl_MouseLeave);
@@ -480,11 +421,13 @@
             // RecepLbl
             // 
             this.RecepLbl.AutoSize = true;
-            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RecepLbl.Location = new System.Drawing.Point(53, 312);
+            this.RecepLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RecepLbl.ForeColor = System.Drawing.Color.Teal;
+            this.RecepLbl.Location = new System.Drawing.Point(1, 303);
             this.RecepLbl.Name = "RecepLbl";
-            this.RecepLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.RecepLbl.Size = new System.Drawing.Size(95, 28);
+            this.RecepLbl.Padding = new System.Windows.Forms.Padding(23, 5, 22, 5);
+            this.RecepLbl.Size = new System.Drawing.Size(159, 35);
             this.RecepLbl.TabIndex = 5;
             this.RecepLbl.Text = "Receptionist";
             this.RecepLbl.Click += new System.EventHandler(this.RecepLbl_Click);
@@ -494,11 +437,13 @@
             // MShipLbl
             // 
             this.MShipLbl.AutoSize = true;
-            this.MShipLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MShipLbl.Location = new System.Drawing.Point(53, 272);
+            this.MShipLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MShipLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MShipLbl.ForeColor = System.Drawing.Color.Teal;
+            this.MShipLbl.Location = new System.Drawing.Point(1, 268);
             this.MShipLbl.Name = "MShipLbl";
-            this.MShipLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.MShipLbl.Size = new System.Drawing.Size(105, 28);
+            this.MShipLbl.Padding = new System.Windows.Forms.Padding(16, 5, 17, 5);
+            this.MShipLbl.Size = new System.Drawing.Size(159, 35);
             this.MShipLbl.TabIndex = 4;
             this.MShipLbl.Text = "Memberships";
             this.MShipLbl.Click += new System.EventHandler(this.MShipLbl_Click);
@@ -508,11 +453,13 @@
             // MembersLbl
             // 
             this.MembersLbl.AutoSize = true;
-            this.MembersLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MembersLbl.Location = new System.Drawing.Point(53, 230);
+            this.MembersLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MembersLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MembersLbl.ForeColor = System.Drawing.Color.Teal;
+            this.MembersLbl.Location = new System.Drawing.Point(1, 233);
             this.MembersLbl.Name = "MembersLbl";
-            this.MembersLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.MembersLbl.Size = new System.Drawing.Size(76, 28);
+            this.MembersLbl.Padding = new System.Windows.Forms.Padding(34, 5, 34, 5);
+            this.MembersLbl.Size = new System.Drawing.Size(159, 35);
             this.MembersLbl.TabIndex = 3;
             this.MembersLbl.Text = "Members";
             this.MembersLbl.Click += new System.EventHandler(this.MembersLbl_Click);
@@ -522,11 +469,13 @@
             // CoachLbl
             // 
             this.CoachLbl.AutoSize = true;
-            this.CoachLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoachLbl.Location = new System.Drawing.Point(53, 189);
+            this.CoachLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CoachLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoachLbl.ForeColor = System.Drawing.Color.Teal;
+            this.CoachLbl.Location = new System.Drawing.Point(1, 198);
             this.CoachLbl.Name = "CoachLbl";
-            this.CoachLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.CoachLbl.Size = new System.Drawing.Size(53, 28);
+            this.CoachLbl.Padding = new System.Windows.Forms.Padding(47, 5, 47, 5);
+            this.CoachLbl.Size = new System.Drawing.Size(159, 35);
             this.CoachLbl.TabIndex = 2;
             this.CoachLbl.Text = "Coach";
             this.CoachLbl.Click += new System.EventHandler(this.CoachLbl_Click);
@@ -541,42 +490,26 @@
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 10;
-            this.guna2Elipse1.TargetControl = this.panel1;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.panel1.Location = new System.Drawing.Point(15, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(116, 509);
-            this.panel1.TabIndex = 6;
             // 
             // Billing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Salmon;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1204, 533);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Billing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Billing";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BillingList)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
@@ -587,8 +520,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.TextBox BillAmount;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button AddBtn;
@@ -600,10 +531,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel4;
@@ -615,7 +542,6 @@
         private System.Windows.Forms.Label CoachLbl;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox BillMember;
         private System.Windows.Forms.DateTimePicker BillDate;
         private System.Windows.Forms.DateTimePicker BillPeriod;
@@ -625,6 +551,5 @@
         private System.Windows.Forms.Label StatusLbl;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label AdminLbl;
-        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }
