@@ -305,7 +305,7 @@ namespace GymMenagmentSystem
 
         private void MShipLbl_MouseLeave(object sender, EventArgs e)
         {
-            MShipLbl.BackColor = Color.WhiteSmoke;
+            MShipLbl.BackColor = Color.LightGray;
             MShipLbl.ForeColor = Color.Teal;
         }
 
@@ -343,6 +343,14 @@ namespace GymMenagmentSystem
         {
             LogoutLbl.BackColor = Color.Transparent;
             LogoutLbl.ForeColor = Color.White;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
+            Login.Admin = false;
         }
     }
 }

@@ -274,7 +274,7 @@ namespace GymMenagmentSystem
 
         private void label10_MouseLeave(object sender, EventArgs e)
         {
-            label10.BackColor = Color.WhiteSmoke;
+            label10.BackColor = Color.LightGray;
             label10.ForeColor = Color.Teal;
 
         }
@@ -337,6 +337,14 @@ namespace GymMenagmentSystem
         {
             LogoutLbl.BackColor = Color.Transparent;
             LogoutLbl.ForeColor = Color.White;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
+            Login.Admin = false;
         }
     }
 }

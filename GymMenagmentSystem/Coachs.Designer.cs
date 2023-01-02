@@ -193,9 +193,9 @@
             // ExitImg
             // 
             this.ExitImg.Image = ((System.Drawing.Image)(resources.GetObject("ExitImg.Image")));
-            this.ExitImg.Location = new System.Drawing.Point(1144, 4);
+            this.ExitImg.Location = new System.Drawing.Point(1158, 0);
             this.ExitImg.Name = "ExitImg";
-            this.ExitImg.Size = new System.Drawing.Size(41, 26);
+            this.ExitImg.Size = new System.Drawing.Size(33, 32);
             this.ExitImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ExitImg.TabIndex = 22;
             this.ExitImg.TabStop = false;
@@ -244,11 +244,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(668, 238);
+            this.label9.Location = new System.Drawing.Point(666, 241);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 16);
+            this.label9.Size = new System.Drawing.Size(88, 21);
             this.label9.TabIndex = 17;
             this.label9.Text = "Coachs List";
             // 
@@ -256,11 +256,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(797, 133);
+            this.label8.Location = new System.Drawing.Point(793, 128);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 16);
+            this.label8.Size = new System.Drawing.Size(76, 21);
             this.label8.TabIndex = 15;
             this.label8.Text = "Password";
             // 
@@ -276,11 +276,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Teal;
-            this.label7.Location = new System.Drawing.Point(892, 62);
+            this.label7.Location = new System.Drawing.Point(888, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 16);
+            this.label7.Size = new System.Drawing.Size(54, 21);
             this.label7.TabIndex = 13;
             this.label7.Text = "Phone";
             // 
@@ -296,11 +296,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(679, 62);
+            this.label6.Location = new System.Drawing.Point(675, 57);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 16);
+            this.label6.Size = new System.Drawing.Size(79, 21);
             this.label6.TabIndex = 11;
             this.label6.Text = "Birth Date";
             // 
@@ -316,11 +316,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(535, 62);
+            this.label5.Location = new System.Drawing.Point(531, 57);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 16);
+            this.label5.Size = new System.Drawing.Size(61, 21);
             this.label5.TabIndex = 9;
             this.label5.Text = "Gender";
             // 
@@ -341,11 +341,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(538, 133);
+            this.label4.Location = new System.Drawing.Point(534, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 16);
+            this.label4.Size = new System.Drawing.Size(66, 21);
             this.label4.TabIndex = 7;
             this.label4.Text = "Address";
             // 
@@ -361,11 +361,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(273, 133);
+            this.label3.Location = new System.Drawing.Point(269, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 16);
+            this.label3.Size = new System.Drawing.Size(84, 21);
             this.label3.TabIndex = 5;
             this.label3.Text = "Experience";
             // 
@@ -381,11 +381,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(273, 65);
+            this.label2.Location = new System.Drawing.Point(269, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(52, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "Name";
             // 
@@ -430,12 +430,12 @@
             // 
             this.AdminLbl.AutoSize = true;
             this.AdminLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.AdminLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminLbl.ForeColor = System.Drawing.Color.Teal;
             this.AdminLbl.Location = new System.Drawing.Point(1, 161);
             this.AdminLbl.Name = "AdminLbl";
             this.AdminLbl.Padding = new System.Windows.Forms.Padding(46, 5, 46, 5);
-            this.AdminLbl.Size = new System.Drawing.Size(159, 35);
+            this.AdminLbl.Size = new System.Drawing.Size(161, 35);
             this.AdminLbl.TabIndex = 27;
             this.AdminLbl.Text = "Admin";
             this.AdminLbl.Click += new System.EventHandler(this.AdminLbl_Click);
@@ -482,16 +482,17 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 26;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // LogoutLbl
             // 
             this.LogoutLbl.AutoSize = true;
-            this.LogoutLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogoutLbl.ForeColor = System.Drawing.Color.White;
-            this.LogoutLbl.Location = new System.Drawing.Point(64, 11);
+            this.LogoutLbl.Location = new System.Drawing.Point(64, 5);
             this.LogoutLbl.Name = "LogoutLbl";
             this.LogoutLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.LogoutLbl.Size = new System.Drawing.Size(59, 28);
+            this.LogoutLbl.Size = new System.Drawing.Size(72, 32);
             this.LogoutLbl.TabIndex = 19;
             this.LogoutLbl.Text = "Logout";
             this.LogoutLbl.Click += new System.EventHandler(this.LogoutLbl_Click);
@@ -502,7 +503,7 @@
             // 
             this.BillingLbl.AutoSize = true;
             this.BillingLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BillingLbl.ForeColor = System.Drawing.Color.Teal;
             this.BillingLbl.Location = new System.Drawing.Point(1, 335);
             this.BillingLbl.Name = "BillingLbl";
@@ -518,12 +519,12 @@
             // 
             this.RecepLbl.AutoSize = true;
             this.RecepLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RecepLbl.ForeColor = System.Drawing.Color.Teal;
             this.RecepLbl.Location = new System.Drawing.Point(1, 300);
             this.RecepLbl.Name = "RecepLbl";
             this.RecepLbl.Padding = new System.Windows.Forms.Padding(23, 5, 22, 5);
-            this.RecepLbl.Size = new System.Drawing.Size(159, 35);
+            this.RecepLbl.Size = new System.Drawing.Size(162, 35);
             this.RecepLbl.TabIndex = 5;
             this.RecepLbl.Text = "Receptionist";
             this.RecepLbl.Click += new System.EventHandler(this.RecepLbl_Click);
@@ -534,12 +535,12 @@
             // 
             this.MShipLbl.AutoSize = true;
             this.MShipLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.MShipLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MShipLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MShipLbl.ForeColor = System.Drawing.Color.Teal;
             this.MShipLbl.Location = new System.Drawing.Point(1, 265);
             this.MShipLbl.Name = "MShipLbl";
             this.MShipLbl.Padding = new System.Windows.Forms.Padding(16, 5, 17, 5);
-            this.MShipLbl.Size = new System.Drawing.Size(159, 35);
+            this.MShipLbl.Size = new System.Drawing.Size(161, 35);
             this.MShipLbl.TabIndex = 4;
             this.MShipLbl.Text = "Memberships";
             this.MShipLbl.Click += new System.EventHandler(this.MShipLbl_Click);
@@ -550,12 +551,12 @@
             // 
             this.MemberLbl.AutoSize = true;
             this.MemberLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.MemberLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MemberLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MemberLbl.ForeColor = System.Drawing.Color.Teal;
             this.MemberLbl.Location = new System.Drawing.Point(1, 231);
             this.MemberLbl.Name = "MemberLbl";
             this.MemberLbl.Padding = new System.Windows.Forms.Padding(34, 5, 34, 5);
-            this.MemberLbl.Size = new System.Drawing.Size(159, 35);
+            this.MemberLbl.Size = new System.Drawing.Size(161, 35);
             this.MemberLbl.TabIndex = 3;
             this.MemberLbl.Text = "Members";
             this.MemberLbl.Click += new System.EventHandler(this.MemberLbl_Click_1);
@@ -565,8 +566,8 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.BackColor = System.Drawing.Color.LightGray;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Teal;
             this.label10.Location = new System.Drawing.Point(1, 196);
             this.label10.Name = "label10";

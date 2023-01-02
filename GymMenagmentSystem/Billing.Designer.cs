@@ -77,7 +77,7 @@
             // BillAmount
             // 
             this.BillAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillAmount.Location = new System.Drawing.Point(233, 354);
+            this.BillAmount.Location = new System.Drawing.Point(256, 354);
             this.BillAmount.Name = "BillAmount";
             this.BillAmount.Size = new System.Drawing.Size(232, 26);
             this.BillAmount.TabIndex = 25;
@@ -86,11 +86,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(240, 335);
+            this.label16.Location = new System.Drawing.Point(261, 330);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 16);
+            this.label16.Size = new System.Drawing.Size(57, 21);
             this.label16.TabIndex = 24;
             this.label16.Text = "Amout";
             // 
@@ -99,7 +99,7 @@
             this.AddBtn.BackColor = System.Drawing.Color.Teal;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.White;
-            this.AddBtn.Location = new System.Drawing.Point(233, 407);
+            this.AddBtn.Location = new System.Drawing.Point(256, 407);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(113, 34);
             this.AddBtn.TabIndex = 19;
@@ -112,7 +112,7 @@
             this.CancelBtn.BackColor = System.Drawing.Color.Teal;
             this.CancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelBtn.ForeColor = System.Drawing.Color.White;
-            this.CancelBtn.Location = new System.Drawing.Point(352, 407);
+            this.CancelBtn.Location = new System.Drawing.Point(375, 407);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(113, 34);
             this.CancelBtn.TabIndex = 18;
@@ -124,11 +124,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(240, 268);
+            this.label6.Location = new System.Drawing.Point(261, 263);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 16);
+            this.label6.Size = new System.Drawing.Size(89, 21);
             this.label6.TabIndex = 11;
             this.label6.Text = "Billing Date";
             // 
@@ -136,11 +136,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(240, 182);
+            this.label5.Location = new System.Drawing.Point(261, 177);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 16);
+            this.label5.Size = new System.Drawing.Size(54, 21);
             this.label5.TabIndex = 9;
             this.label5.Text = "Period";
             // 
@@ -148,11 +148,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(240, 121);
+            this.label2.Location = new System.Drawing.Point(261, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(69, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "Member";
             // 
@@ -196,7 +196,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(1149, 3);
+            this.pictureBox8.Location = new System.Drawing.Point(1157, 0);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(34, 30);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -248,7 +248,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.BillingList.DefaultCellStyle = dataGridViewCellStyle3;
             this.BillingList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.BillingList.Location = new System.Drawing.Point(562, 135);
+            this.BillingList.Location = new System.Drawing.Point(587, 140);
             this.BillingList.Name = "BillingList";
             this.BillingList.ReadOnly = true;
             this.BillingList.RowHeadersVisible = false;
@@ -279,7 +279,7 @@
             // BillDate
             // 
             this.BillDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillDate.Location = new System.Drawing.Point(233, 287);
+            this.BillDate.Location = new System.Drawing.Point(256, 287);
             this.BillDate.Name = "BillDate";
             this.BillDate.Size = new System.Drawing.Size(232, 26);
             this.BillDate.TabIndex = 30;
@@ -287,7 +287,7 @@
             // BillPeriod
             // 
             this.BillPeriod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillPeriod.Location = new System.Drawing.Point(233, 201);
+            this.BillPeriod.Location = new System.Drawing.Point(256, 201);
             this.BillPeriod.Name = "BillPeriod";
             this.BillPeriod.Size = new System.Drawing.Size(232, 26);
             this.BillPeriod.TabIndex = 29;
@@ -296,7 +296,7 @@
             // 
             this.BillMember.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BillMember.FormattingEnabled = true;
-            this.BillMember.Location = new System.Drawing.Point(233, 140);
+            this.BillMember.Location = new System.Drawing.Point(256, 140);
             this.BillMember.Name = "BillMember";
             this.BillMember.Size = new System.Drawing.Size(232, 28);
             this.BillMember.TabIndex = 28;
@@ -305,11 +305,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(805, 92);
+            this.label9.Location = new System.Drawing.Point(805, 93);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 16);
+            this.label9.Size = new System.Drawing.Size(81, 21);
             this.label9.TabIndex = 17;
             this.label9.Text = "Billing List";
             // 
@@ -334,12 +334,12 @@
             // 
             this.AdminLbl.AutoSize = true;
             this.AdminLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.AdminLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminLbl.ForeColor = System.Drawing.Color.Teal;
             this.AdminLbl.Location = new System.Drawing.Point(1, 163);
             this.AdminLbl.Name = "AdminLbl";
             this.AdminLbl.Padding = new System.Windows.Forms.Padding(46, 5, 46, 5);
-            this.AdminLbl.Size = new System.Drawing.Size(159, 35);
+            this.AdminLbl.Size = new System.Drawing.Size(161, 35);
             this.AdminLbl.TabIndex = 27;
             this.AdminLbl.Text = "Admin";
             this.AdminLbl.Click += new System.EventHandler(this.AdminLbl_Click);
@@ -391,12 +391,12 @@
             // LogoutLbl
             // 
             this.LogoutLbl.AutoSize = true;
-            this.LogoutLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogoutLbl.ForeColor = System.Drawing.Color.White;
-            this.LogoutLbl.Location = new System.Drawing.Point(64, 11);
+            this.LogoutLbl.Location = new System.Drawing.Point(64, 6);
             this.LogoutLbl.Name = "LogoutLbl";
             this.LogoutLbl.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.LogoutLbl.Size = new System.Drawing.Size(59, 28);
+            this.LogoutLbl.Size = new System.Drawing.Size(72, 32);
             this.LogoutLbl.TabIndex = 19;
             this.LogoutLbl.Text = "Logout";
             this.LogoutLbl.Click += new System.EventHandler(this.LogoutLbl_Click);
@@ -406,8 +406,8 @@
             // BillingLbl
             // 
             this.BillingLbl.AutoSize = true;
-            this.BillingLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BillingLbl.BackColor = System.Drawing.Color.LightGray;
+            this.BillingLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BillingLbl.ForeColor = System.Drawing.Color.Teal;
             this.BillingLbl.Location = new System.Drawing.Point(1, 338);
             this.BillingLbl.Name = "BillingLbl";
@@ -422,12 +422,12 @@
             // 
             this.RecepLbl.AutoSize = true;
             this.RecepLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RecepLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RecepLbl.ForeColor = System.Drawing.Color.Teal;
             this.RecepLbl.Location = new System.Drawing.Point(1, 303);
             this.RecepLbl.Name = "RecepLbl";
             this.RecepLbl.Padding = new System.Windows.Forms.Padding(23, 5, 22, 5);
-            this.RecepLbl.Size = new System.Drawing.Size(159, 35);
+            this.RecepLbl.Size = new System.Drawing.Size(162, 35);
             this.RecepLbl.TabIndex = 5;
             this.RecepLbl.Text = "Receptionist";
             this.RecepLbl.Click += new System.EventHandler(this.RecepLbl_Click);
@@ -438,12 +438,12 @@
             // 
             this.MShipLbl.AutoSize = true;
             this.MShipLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.MShipLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MShipLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MShipLbl.ForeColor = System.Drawing.Color.Teal;
             this.MShipLbl.Location = new System.Drawing.Point(1, 268);
             this.MShipLbl.Name = "MShipLbl";
             this.MShipLbl.Padding = new System.Windows.Forms.Padding(16, 5, 17, 5);
-            this.MShipLbl.Size = new System.Drawing.Size(159, 35);
+            this.MShipLbl.Size = new System.Drawing.Size(161, 35);
             this.MShipLbl.TabIndex = 4;
             this.MShipLbl.Text = "Memberships";
             this.MShipLbl.Click += new System.EventHandler(this.MShipLbl_Click);
@@ -454,12 +454,12 @@
             // 
             this.MembersLbl.AutoSize = true;
             this.MembersLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.MembersLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MembersLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MembersLbl.ForeColor = System.Drawing.Color.Teal;
             this.MembersLbl.Location = new System.Drawing.Point(1, 233);
             this.MembersLbl.Name = "MembersLbl";
             this.MembersLbl.Padding = new System.Windows.Forms.Padding(34, 5, 34, 5);
-            this.MembersLbl.Size = new System.Drawing.Size(159, 35);
+            this.MembersLbl.Size = new System.Drawing.Size(161, 35);
             this.MembersLbl.TabIndex = 3;
             this.MembersLbl.Text = "Members";
             this.MembersLbl.Click += new System.EventHandler(this.MembersLbl_Click);
@@ -470,7 +470,7 @@
             // 
             this.CoachLbl.AutoSize = true;
             this.CoachLbl.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.CoachLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoachLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CoachLbl.ForeColor = System.Drawing.Color.Teal;
             this.CoachLbl.Location = new System.Drawing.Point(1, 198);
             this.CoachLbl.Name = "CoachLbl";

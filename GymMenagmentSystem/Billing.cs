@@ -222,7 +222,7 @@ namespace GymMenagmentSystem
 
         private void BillingLbl_MouseLeave(object sender, EventArgs e)
         {
-            BillingLbl.BackColor = Color.WhiteSmoke;
+            BillingLbl.BackColor = Color.LightGray;
             BillingLbl.ForeColor = Color.Teal;
         }
 
