@@ -72,6 +72,8 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitImg)).BeginInit();
@@ -80,11 +82,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.Status);
             this.panel2.Controls.Add(this.StatusLbl);
             this.panel2.Controls.Add(this.ChList);
@@ -192,10 +198,11 @@
             // 
             // ExitImg
             // 
+            this.ExitImg.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ExitImg.Image = ((System.Drawing.Image)(resources.GetObject("ExitImg.Image")));
-            this.ExitImg.Location = new System.Drawing.Point(1158, 0);
+            this.ExitImg.Location = new System.Drawing.Point(1160, 5);
             this.ExitImg.Name = "ExitImg";
-            this.ExitImg.Size = new System.Drawing.Size(33, 32);
+            this.ExitImg.Size = new System.Drawing.Size(25, 19);
             this.ExitImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ExitImg.TabIndex = 22;
             this.ExitImg.TabStop = false;
@@ -587,6 +594,28 @@
             this.guna2Elipse2.BorderRadius = 10;
             this.guna2Elipse2.TargetControl = this.panel2;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(1098, 5);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 19);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 41;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1129, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 19);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabStop = false;
+            // 
             // Coachs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -609,6 +638,8 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -653,6 +684,8 @@
         private System.Windows.Forms.Label Status;
         private System.Windows.Forms.Label StatusLbl;
         private System.Windows.Forms.Label AdminLbl;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
