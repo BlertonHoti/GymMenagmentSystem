@@ -333,7 +333,7 @@ namespace GymMenagmentSystem
             {
                 WindowState = FormWindowState.Minimized;
             }
-            else if(WindowState == FormWindowState.Minimized)
+            else if(WindowState == FormWindowState.Maximized)
             {
                 WindowState = FormWindowState.Normal;
             }
