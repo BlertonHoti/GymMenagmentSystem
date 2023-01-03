@@ -337,14 +337,16 @@ namespace GymMenagmentSystem
 
         private void LogoutLbl_MouseHover(object sender, EventArgs e)
         {
+            panel4.BackColor = Color.DarkSeaGreen;
+            pictureBox7.BackColor = Color.DarkSeaGreen;
             LogoutLbl.BackColor = Color.DarkSeaGreen;
-            LogoutLbl.ForeColor = Color.White;
         }
 
         private void LogoutLbl_MouseLeave(object sender, EventArgs e)
         {
+            panel4.BackColor = Color.SeaGreen;
+            pictureBox7.BackColor = Color.Transparent;
             LogoutLbl.BackColor = Color.Transparent;
-            LogoutLbl.ForeColor = Color.White;
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -428,6 +430,42 @@ namespace GymMenagmentSystem
         private void Memberships_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
+        }
+
+        private void panel4_MouseHover(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.DarkSeaGreen;
+            pictureBox7.BackColor = Color.DarkSeaGreen;
+            LogoutLbl.BackColor = Color.DarkSeaGreen;
+        }
+
+        private void panel4_MouseLeave(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.SeaGreen;
+            pictureBox7.BackColor = Color.Transparent;
+            LogoutLbl.BackColor = Color.Transparent;
+        }
+
+        private void pictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.DarkSeaGreen;
+            pictureBox7.BackColor = Color.DarkSeaGreen;
+            LogoutLbl.BackColor = Color.DarkSeaGreen;
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.SeaGreen;
+            pictureBox7.BackColor = Color.Transparent;
+            LogoutLbl.BackColor = Color.Transparent;
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
+            Login.Admin = false;
         }
     }
 }
