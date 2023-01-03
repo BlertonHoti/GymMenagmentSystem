@@ -14,6 +14,8 @@ namespace GymMenagmentSystem
     public partial class Login : Form
     {
         Functions con;
+        bool mouseDown;
+        private Point Offset;
         public Login()
         {
             InitializeComponent();
@@ -95,6 +97,81 @@ namespace GymMenagmentSystem
         private void RecepGen_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Maximized;
+            }
+            else if (WindowState == FormWindowState.Maximized)
+            {
+                WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Minimized;
+            }
+            else if (WindowState == FormWindowState.Maximized)
+            {
+                WindowState = FormWindowState.Minimized;
+            }
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.LightGray;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.WhiteSmoke;
+        }
+
+        private void pictureBox4_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox4.BackColor = Color.LightGray;
+        }
+
+        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox4.BackColor = Color.WhiteSmoke;
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.LightGray;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.WhiteSmoke;
+        }
+
+        private void Login_MouseDown(object sender, MouseEventArgs e)
+        {
+            Offset.X = (int)e.X;
+            Offset.Y = (int)e.Y;
+            mouseDown = true;
+        }
+
+        private void Login_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown == true)
+            {
+                Point CurrentScreen = PointToScreen(e.Location);
+                Location = new Point(CurrentScreen.X - Offset.X, CurrentScreen.Y - Offset.Y);
+            }
+        }
+
+        private void Login_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }

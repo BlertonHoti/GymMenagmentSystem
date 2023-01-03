@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Members));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.LogoutLbl = new System.Windows.Forms.Label();
@@ -63,6 +63,8 @@
             this.CoachLbl = new System.Windows.Forms.Label();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.Status = new System.Windows.Forms.Label();
             this.StatusLbl = new System.Windows.Forms.Label();
@@ -75,18 +77,18 @@
             this.MemShips = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
             this.MemJoinDate = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MemList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MemList)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -142,7 +144,7 @@
             this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(551, 60);
+            this.label6.Location = new System.Drawing.Point(533, 57);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 21);
             this.label6.TabIndex = 11;
@@ -151,7 +153,7 @@
             // MemBirth
             // 
             this.MemBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MemBirth.Location = new System.Drawing.Point(558, 87);
+            this.MemBirth.Location = new System.Drawing.Point(540, 84);
             this.MemBirth.Name = "MemBirth";
             this.MemBirth.Size = new System.Drawing.Size(200, 26);
             this.MemBirth.TabIndex = 10;
@@ -162,7 +164,7 @@
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(407, 58);
+            this.label5.Location = new System.Drawing.Point(389, 55);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 21);
             this.label5.TabIndex = 9;
@@ -177,7 +179,7 @@
             this.DeleteBtn.BackColor = System.Drawing.Color.Teal;
             this.DeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteBtn.Location = new System.Drawing.Point(787, 187);
+            this.DeleteBtn.Location = new System.Drawing.Point(769, 184);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(113, 34);
             this.DeleteBtn.TabIndex = 20;
@@ -190,7 +192,7 @@
             this.SaveBtn.BackColor = System.Drawing.Color.Teal;
             this.SaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveBtn.ForeColor = System.Drawing.Color.White;
-            this.SaveBtn.Location = new System.Drawing.Point(635, 187);
+            this.SaveBtn.Location = new System.Drawing.Point(617, 184);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(113, 34);
             this.SaveBtn.TabIndex = 19;
@@ -203,7 +205,7 @@
             this.EditBtn.BackColor = System.Drawing.Color.Teal;
             this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
-            this.EditBtn.Location = new System.Drawing.Point(473, 187);
+            this.EditBtn.Location = new System.Drawing.Point(455, 184);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(113, 34);
             this.EditBtn.TabIndex = 18;
@@ -217,7 +219,7 @@
             this.label9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(654, 246);
+            this.label9.Location = new System.Drawing.Point(613, 246);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(104, 21);
             this.label9.TabIndex = 17;
@@ -229,7 +231,7 @@
             this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(704, 129);
+            this.label8.Location = new System.Drawing.Point(686, 126);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 21);
             this.label8.TabIndex = 15;
@@ -243,7 +245,7 @@
             this.MemGen.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.MemGen.Location = new System.Drawing.Point(414, 85);
+            this.MemGen.Location = new System.Drawing.Point(396, 82);
             this.MemGen.Name = "MemGen";
             this.MemGen.Size = new System.Drawing.Size(121, 28);
             this.MemGen.TabIndex = 8;
@@ -254,7 +256,7 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(480, 129);
+            this.label4.Location = new System.Drawing.Point(462, 126);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 21);
             this.label4.TabIndex = 7;
@@ -266,7 +268,7 @@
             this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(248, 129);
+            this.label3.Location = new System.Drawing.Point(230, 126);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 21);
             this.label3.TabIndex = 5;
@@ -275,7 +277,7 @@
             // MemPhone
             // 
             this.MemPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MemPhone.Location = new System.Drawing.Point(252, 153);
+            this.MemPhone.Location = new System.Drawing.Point(234, 150);
             this.MemPhone.Name = "MemPhone";
             this.MemPhone.Size = new System.Drawing.Size(193, 26);
             this.MemPhone.TabIndex = 4;
@@ -286,7 +288,7 @@
             this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(248, 61);
+            this.label2.Location = new System.Drawing.Point(230, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 21);
             this.label2.TabIndex = 3;
@@ -295,7 +297,7 @@
             // MemName
             // 
             this.MemName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MemName.Location = new System.Drawing.Point(252, 85);
+            this.MemName.Location = new System.Drawing.Point(234, 82);
             this.MemName.Name = "MemName";
             this.MemName.Size = new System.Drawing.Size(143, 26);
             this.MemName.TabIndex = 2;
@@ -443,10 +445,11 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.pictureBox9);
+            this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.Status);
             this.panel2.Controls.Add(this.StatusLbl);
             this.panel2.Controls.Add(this.MemList);
@@ -479,17 +482,47 @@
             this.panel2.Size = new System.Drawing.Size(1191, 521);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(7, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 19);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 41;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(38, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 19);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
+            // 
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(1160, 5);
+            this.pictureBox9.Location = new System.Drawing.Point(69, 3);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(25, 19);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 34;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.pictureBox9.MouseLeave += new System.EventHandler(this.pictureBox9_MouseLeave);
+            this.pictureBox9.MouseHover += new System.EventHandler(this.pictureBox9_MouseHover);
             // 
             // Status
             // 
@@ -514,32 +547,32 @@
             // 
             // MemList
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.MemList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.MemList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.White;
+            this.MemList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.MemList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.MemList.ColumnHeadersHeight = 28;
             this.MemList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.MemList.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.MemList.DefaultCellStyle = dataGridViewCellStyle39;
             this.MemList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.MemList.Location = new System.Drawing.Point(240, 270);
             this.MemList.Name = "MemList";
             this.MemList.ReadOnly = true;
             this.MemList.RowHeadersVisible = false;
-            this.MemList.Size = new System.Drawing.Size(880, 223);
+            this.MemList.Size = new System.Drawing.Size(849, 223);
             this.MemList.TabIndex = 31;
             this.MemList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.MemList.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -568,7 +601,7 @@
             // 
             this.MemCoach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MemCoach.FormattingEnabled = true;
-            this.MemCoach.Location = new System.Drawing.Point(936, 153);
+            this.MemCoach.Location = new System.Drawing.Point(918, 150);
             this.MemCoach.Name = "MemCoach";
             this.MemCoach.Size = new System.Drawing.Size(171, 28);
             this.MemCoach.TabIndex = 30;
@@ -580,7 +613,7 @@
             this.label18.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Teal;
-            this.label18.Location = new System.Drawing.Point(929, 129);
+            this.label18.Location = new System.Drawing.Point(911, 126);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(53, 21);
             this.label18.TabIndex = 29;
@@ -593,7 +626,7 @@
             this.MemStatus.Items.AddRange(new object[] {
             "Pending",
             "Cancelled"});
-            this.MemStatus.Location = new System.Drawing.Point(711, 153);
+            this.MemStatus.Location = new System.Drawing.Point(693, 150);
             this.MemStatus.Name = "MemStatus";
             this.MemStatus.Size = new System.Drawing.Size(178, 28);
             this.MemStatus.TabIndex = 28;
@@ -609,7 +642,7 @@
             "1PM - 3PM",
             "3PM - 5PM",
             "5PM - 8PM"});
-            this.MemTiming.Location = new System.Drawing.Point(487, 153);
+            this.MemTiming.Location = new System.Drawing.Point(469, 150);
             this.MemTiming.Name = "MemTiming";
             this.MemTiming.Size = new System.Drawing.Size(185, 28);
             this.MemTiming.TabIndex = 27;
@@ -620,7 +653,7 @@
             this.label17.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Teal;
-            this.label17.Location = new System.Drawing.Point(979, 58);
+            this.label17.Location = new System.Drawing.Point(961, 55);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(105, 21);
             this.label17.TabIndex = 26;
@@ -630,7 +663,7 @@
             // 
             this.MemShips.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MemShips.FormattingEnabled = true;
-            this.MemShips.Location = new System.Drawing.Point(986, 85);
+            this.MemShips.Location = new System.Drawing.Point(968, 82);
             this.MemShips.Name = "MemShips";
             this.MemShips.Size = new System.Drawing.Size(121, 28);
             this.MemShips.TabIndex = 25;
@@ -641,7 +674,7 @@
             this.label16.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(768, 60);
+            this.label16.Location = new System.Drawing.Point(750, 57);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(74, 21);
             this.label16.TabIndex = 24;
@@ -650,32 +683,21 @@
             // MemJoinDate
             // 
             this.MemJoinDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MemJoinDate.Location = new System.Drawing.Point(775, 87);
+            this.MemJoinDate.Location = new System.Drawing.Point(757, 84);
             this.MemJoinDate.Name = "MemJoinDate";
             this.MemJoinDate.Size = new System.Drawing.Size(200, 26);
             this.MemJoinDate.TabIndex = 23;
             // 
-            // pictureBox3
+            // panel1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1098, 5);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 19);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 41;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1129, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 19);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 40;
-            this.pictureBox2.TabStop = false;
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox9);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(1091, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(100, 521);
+            this.panel1.TabIndex = 42;
             // 
             // Members
             // 
@@ -690,6 +712,9 @@
             this.Name = "Members";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Members";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Members_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Members_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Members_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel4.ResumeLayout(false);
@@ -699,10 +724,11 @@
             this.panel5.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MemList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MemList)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -753,5 +779,6 @@
         private System.Windows.Forms.Label CoachLbl;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

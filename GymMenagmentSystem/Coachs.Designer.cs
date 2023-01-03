@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Coachs));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Status = new System.Windows.Forms.Label();
             this.StatusLbl = new System.Windows.Forms.Label();
             this.ChList = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -72,9 +74,10 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitImg)).BeginInit();
             this.panel3.SuspendLayout();
@@ -82,19 +85,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.Status);
             this.panel2.Controls.Add(this.StatusLbl);
             this.panel2.Controls.Add(this.ChList);
-            this.panel2.Controls.Add(this.ExitImg);
             this.panel2.Controls.Add(this.DelBtn);
             this.panel2.Controls.Add(this.SaveBtn);
             this.panel2.Controls.Add(this.EditBtn);
@@ -119,6 +122,34 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1191, 521);
             this.panel2.TabIndex = 0;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(7, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 19);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 41;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(38, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 19);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
             // Status
             // 
@@ -146,32 +177,32 @@
             // 
             // ChList
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.ChList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ChList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            this.ChList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ChList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.ChList.ColumnHeadersHeight = 28;
             this.ChList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ChList.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ChList.DefaultCellStyle = dataGridViewCellStyle18;
             this.ChList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ChList.Location = new System.Drawing.Point(240, 265);
             this.ChList.Name = "ChList";
             this.ChList.ReadOnly = true;
             this.ChList.RowHeadersVisible = false;
-            this.ChList.Size = new System.Drawing.Size(880, 223);
+            this.ChList.Size = new System.Drawing.Size(846, 223);
             this.ChList.TabIndex = 24;
             this.ChList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.ChList.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -200,20 +231,22 @@
             // 
             this.ExitImg.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ExitImg.Image = ((System.Drawing.Image)(resources.GetObject("ExitImg.Image")));
-            this.ExitImg.Location = new System.Drawing.Point(1160, 5);
+            this.ExitImg.Location = new System.Drawing.Point(69, 3);
             this.ExitImg.Name = "ExitImg";
             this.ExitImg.Size = new System.Drawing.Size(25, 19);
             this.ExitImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ExitImg.TabIndex = 22;
             this.ExitImg.TabStop = false;
             this.ExitImg.Click += new System.EventHandler(this.ExitImg_Click);
+            this.ExitImg.MouseLeave += new System.EventHandler(this.ExitImg_MouseLeave);
+            this.ExitImg.MouseHover += new System.EventHandler(this.ExitImg_MouseHover);
             // 
             // DelBtn
             // 
             this.DelBtn.BackColor = System.Drawing.Color.Teal;
             this.DelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DelBtn.ForeColor = System.Drawing.Color.White;
-            this.DelBtn.Location = new System.Drawing.Point(797, 192);
+            this.DelBtn.Location = new System.Drawing.Point(787, 193);
             this.DelBtn.Name = "DelBtn";
             this.DelBtn.Size = new System.Drawing.Size(113, 34);
             this.DelBtn.TabIndex = 20;
@@ -226,7 +259,7 @@
             this.SaveBtn.BackColor = System.Drawing.Color.Teal;
             this.SaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveBtn.ForeColor = System.Drawing.Color.White;
-            this.SaveBtn.Location = new System.Drawing.Point(645, 192);
+            this.SaveBtn.Location = new System.Drawing.Point(635, 193);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(113, 34);
             this.SaveBtn.TabIndex = 19;
@@ -239,7 +272,7 @@
             this.EditBtn.BackColor = System.Drawing.Color.Teal;
             this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
-            this.EditBtn.Location = new System.Drawing.Point(483, 192);
+            this.EditBtn.Location = new System.Drawing.Point(473, 193);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(113, 34);
             this.EditBtn.TabIndex = 18;
@@ -265,7 +298,7 @@
             this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(793, 128);
+            this.label8.Location = new System.Drawing.Point(783, 129);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(76, 21);
             this.label8.TabIndex = 15;
@@ -274,7 +307,7 @@
             // ChPass
             // 
             this.ChPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChPass.Location = new System.Drawing.Point(797, 152);
+            this.ChPass.Location = new System.Drawing.Point(787, 153);
             this.ChPass.Name = "ChPass";
             this.ChPass.Size = new System.Drawing.Size(241, 26);
             this.ChPass.TabIndex = 14;
@@ -285,7 +318,7 @@
             this.label7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Teal;
-            this.label7.Location = new System.Drawing.Point(888, 57);
+            this.label7.Location = new System.Drawing.Point(878, 58);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(54, 21);
             this.label7.TabIndex = 13;
@@ -294,7 +327,7 @@
             // ChPhone
             // 
             this.ChPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChPhone.Location = new System.Drawing.Point(895, 84);
+            this.ChPhone.Location = new System.Drawing.Point(885, 85);
             this.ChPhone.Name = "ChPhone";
             this.ChPhone.Size = new System.Drawing.Size(201, 26);
             this.ChPhone.TabIndex = 12;
@@ -305,7 +338,7 @@
             this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(675, 57);
+            this.label6.Location = new System.Drawing.Point(665, 58);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 21);
             this.label6.TabIndex = 11;
@@ -314,7 +347,7 @@
             // ChDateBirth
             // 
             this.ChDateBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChDateBirth.Location = new System.Drawing.Point(682, 84);
+            this.ChDateBirth.Location = new System.Drawing.Point(672, 85);
             this.ChDateBirth.Name = "ChDateBirth";
             this.ChDateBirth.Size = new System.Drawing.Size(200, 26);
             this.ChDateBirth.TabIndex = 10;
@@ -325,7 +358,7 @@
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(531, 57);
+            this.label5.Location = new System.Drawing.Point(521, 58);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 21);
             this.label5.TabIndex = 9;
@@ -338,7 +371,7 @@
             this.ChGen.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.ChGen.Location = new System.Drawing.Point(538, 84);
+            this.ChGen.Location = new System.Drawing.Point(528, 85);
             this.ChGen.Name = "ChGen";
             this.ChGen.Size = new System.Drawing.Size(121, 28);
             this.ChGen.TabIndex = 8;
@@ -350,7 +383,7 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(534, 128);
+            this.label4.Location = new System.Drawing.Point(524, 129);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 21);
             this.label4.TabIndex = 7;
@@ -359,7 +392,7 @@
             // ChAddress
             // 
             this.ChAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChAddress.Location = new System.Drawing.Point(538, 152);
+            this.ChAddress.Location = new System.Drawing.Point(528, 153);
             this.ChAddress.Name = "ChAddress";
             this.ChAddress.Size = new System.Drawing.Size(241, 26);
             this.ChAddress.TabIndex = 6;
@@ -370,7 +403,7 @@
             this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(269, 128);
+            this.label3.Location = new System.Drawing.Point(259, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 21);
             this.label3.TabIndex = 5;
@@ -379,7 +412,7 @@
             // ChExperience
             // 
             this.ChExperience.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChExperience.Location = new System.Drawing.Point(273, 152);
+            this.ChExperience.Location = new System.Drawing.Point(263, 153);
             this.ChExperience.Name = "ChExperience";
             this.ChExperience.Size = new System.Drawing.Size(241, 26);
             this.ChExperience.TabIndex = 4;
@@ -390,7 +423,7 @@
             this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(269, 60);
+            this.label2.Location = new System.Drawing.Point(259, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 21);
             this.label2.TabIndex = 3;
@@ -399,7 +432,7 @@
             // ChName
             // 
             this.ChName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChName.Location = new System.Drawing.Point(273, 84);
+            this.ChName.Location = new System.Drawing.Point(263, 85);
             this.ChName.Name = "ChName";
             this.ChName.Size = new System.Drawing.Size(241, 26);
             this.ChName.TabIndex = 2;
@@ -594,27 +627,16 @@
             this.guna2Elipse2.BorderRadius = 10;
             this.guna2Elipse2.TargetControl = this.panel2;
             // 
-            // pictureBox3
+            // panel1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1098, 5);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 19);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 41;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1129, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 19);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 40;
-            this.pictureBox2.TabStop = false;
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.ExitImg);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(1092, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(99, 521);
+            this.panel1.TabIndex = 42;
             // 
             // Coachs
             // 
@@ -627,8 +649,13 @@
             this.Name = "Coachs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Coachs_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Coachs_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Coachs_MouseUp);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitImg)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -638,8 +665,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -686,6 +712,7 @@
         private System.Windows.Forms.Label AdminLbl;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

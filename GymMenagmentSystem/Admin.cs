@@ -17,6 +17,8 @@ namespace GymMenagmentSystem
     public partial class Admin : Form
     {
         Functions con;
+        bool mouseDown;
+        private Point Offset;
         public Admin()
         {
             InitializeComponent();
@@ -367,6 +369,27 @@ namespace GymMenagmentSystem
         private void pictureBox3_MouseLeave(object sender, EventArgs e)
         {
             pictureBox3.BackColor = Color.WhiteSmoke;
+        }
+
+        private void Admin_MouseDown(object sender, MouseEventArgs e)
+        {
+            Offset.X = (int)e.X;
+            Offset.Y = (int)e.Y;
+            mouseDown = true;
+        }
+
+        private void Admin_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(mouseDown == true)
+            {
+                Point CurrentScreen = PointToScreen(e.Location);
+                Location = new Point(CurrentScreen.X - Offset.X, CurrentScreen.Y - Offset.Y);
+            }
+        }
+
+        private void Admin_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }

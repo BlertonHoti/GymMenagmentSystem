@@ -16,6 +16,8 @@ namespace GymMenagmentSystem
     public partial class Receptionist : Form
     {
         Functions con;
+        bool mouseDown;
+        private Point Offset;
         public Receptionist()
         {
             InitializeComponent();
@@ -334,6 +336,81 @@ namespace GymMenagmentSystem
             Obj.Show();
             this.Hide();
             Login.Admin = false;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Maximized;
+            }
+            else if (WindowState == FormWindowState.Maximized)
+            {
+                WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Minimized;
+            }
+            else if (WindowState == FormWindowState.Maximized)
+            {
+                WindowState = FormWindowState.Minimized;
+            }
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.LightGray;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.WhiteSmoke;
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.LightGray;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.WhiteSmoke;
+        }
+
+        private void pictureBox9_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox9.BackColor = Color.LightGray;
+        }
+
+        private void pictureBox9_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox9.BackColor = Color.WhiteSmoke;
+        }
+
+        private void Receptionist_MouseDown(object sender, MouseEventArgs e)
+        {
+            Offset.X = (int)e.X;
+            Offset.Y = (int)e.Y;
+            mouseDown = true;
+        }
+
+        private void Receptionist_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown == true)
+            {
+                Point CurrentScreen = PointToScreen(e.Location);
+                Location = new Point(CurrentScreen.X - Offset.X, CurrentScreen.Y - Offset.Y);
+            }
+        }
+
+        private void Receptionist_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }
