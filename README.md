@@ -1,7 +1,7 @@
 # GymMenagmentSystemm
 
 
-Punuar nga: Blerton Hoti, Fadil Krasniqi, Fedon Hyseni, Korab Saraci, Zgjim Rashit
+Punuar nga: Blerton Hoti, Fadil Krasniqi, Fedon Hyseni, Korab Saraci, Zgjim Rashiti
 
 
 Per Funksion te plot te programit duhet:
