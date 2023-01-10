@@ -209,6 +209,7 @@ namespace GymMenagmentSystem
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(65, 3);
             this.pictureBox2.Name = "pictureBox2";
@@ -248,6 +249,7 @@ namespace GymMenagmentSystem
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(3, 3);
             this.pictureBox3.Name = "pictureBox3";
@@ -262,6 +264,7 @@ namespace GymMenagmentSystem
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(34, 3);
             this.pictureBox4.Name = "pictureBox4";

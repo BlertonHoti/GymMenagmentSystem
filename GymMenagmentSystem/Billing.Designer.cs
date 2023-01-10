@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Billing));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.BillAmount = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
@@ -103,6 +103,7 @@
             // AddBtn
             // 
             this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.White;
             this.AddBtn.Location = new System.Drawing.Point(256, 407);
@@ -116,6 +117,7 @@
             // CancelBtn
             // 
             this.CancelBtn.BackColor = System.Drawing.Color.Teal;
+            this.CancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelBtn.ForeColor = System.Drawing.Color.White;
             this.CancelBtn.Location = new System.Drawing.Point(375, 407);
@@ -216,6 +218,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(36, 3);
             this.pictureBox2.Name = "pictureBox2";
@@ -230,6 +233,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(5, 3);
             this.pictureBox3.Name = "pictureBox3";
@@ -244,6 +248,7 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(67, 3);
             this.pictureBox8.Name = "pictureBox8";
@@ -278,26 +283,26 @@
             // 
             // BillingList
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.BillingList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BillingList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.BillingList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BillingList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.BillingList.ColumnHeadersHeight = 28;
             this.BillingList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BillingList.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BillingList.DefaultCellStyle = dataGridViewCellStyle3;
             this.BillingList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.BillingList.Location = new System.Drawing.Point(587, 140);
             this.BillingList.Name = "BillingList";
@@ -385,6 +390,7 @@
             // 
             this.AdminLbl.AutoSize = true;
             this.AdminLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AdminLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AdminLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminLbl.ForeColor = System.Drawing.Color.Teal;
             this.AdminLbl.Location = new System.Drawing.Point(1, 163);
@@ -422,6 +428,7 @@
             this.panel4.BackColor = System.Drawing.Color.SeaGreen;
             this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Controls.Add(this.LogoutLbl);
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 472);
             this.panel4.Name = "panel4";
@@ -433,6 +440,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(14, 7);
             this.pictureBox7.Name = "pictureBox7";
@@ -447,6 +455,7 @@
             // LogoutLbl
             // 
             this.LogoutLbl.AutoSize = true;
+            this.LogoutLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LogoutLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogoutLbl.ForeColor = System.Drawing.Color.White;
             this.LogoutLbl.Location = new System.Drawing.Point(64, 6);
@@ -463,6 +472,7 @@
             // 
             this.BillingLbl.AutoSize = true;
             this.BillingLbl.BackColor = System.Drawing.Color.LightGray;
+            this.BillingLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BillingLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BillingLbl.ForeColor = System.Drawing.Color.Teal;
             this.BillingLbl.Location = new System.Drawing.Point(1, 338);
@@ -478,6 +488,7 @@
             // 
             this.RecepLbl.AutoSize = true;
             this.RecepLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RecepLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RecepLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RecepLbl.ForeColor = System.Drawing.Color.Teal;
             this.RecepLbl.Location = new System.Drawing.Point(1, 303);
@@ -494,6 +505,7 @@
             // 
             this.MShipLbl.AutoSize = true;
             this.MShipLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MShipLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MShipLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MShipLbl.ForeColor = System.Drawing.Color.Teal;
             this.MShipLbl.Location = new System.Drawing.Point(1, 268);
@@ -510,6 +522,7 @@
             // 
             this.MembersLbl.AutoSize = true;
             this.MembersLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MembersLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MembersLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MembersLbl.ForeColor = System.Drawing.Color.Teal;
             this.MembersLbl.Location = new System.Drawing.Point(1, 233);
@@ -526,6 +539,7 @@
             // 
             this.CoachLbl.AutoSize = true;
             this.CoachLbl.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CoachLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CoachLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CoachLbl.ForeColor = System.Drawing.Color.Teal;
             this.CoachLbl.Location = new System.Drawing.Point(1, 198);
